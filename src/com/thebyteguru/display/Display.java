@@ -72,4 +72,8 @@ public abstract class Display {
         window.dispose();
 
     }
+
+    public static void setTitle(String title) {
+        window.setTitle(title);
+    }
 }
